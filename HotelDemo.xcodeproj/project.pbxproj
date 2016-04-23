@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69737AD71CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 69737AD61CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.m */; };
+		69737AD81CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 69737AD61CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.m */; };
+		69D4E9711CC9121A00AAA635 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9701CC9121A00AAA635 /* main.m */; };
+		69D4E9741CC9121A00AAA635 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9731CC9121A00AAA635 /* AppDelegate.m */; };
+		69D4E9771CC9121A00AAA635 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9761CC9121A00AAA635 /* ViewController.m */; };
+		69D4E97A1CC9121B00AAA635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9781CC9121B00AAA635 /* Main.storyboard */; };
+		69D4E97C1CC9121B00AAA635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E97B1CC9121B00AAA635 /* Assets.xcassets */; };
+		69D4E97F1CC9121B00AAA635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E97D1CC9121B00AAA635 /* LaunchScreen.storyboard */; };
+		69D4E98A1CC9121B00AAA635 /* HotelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9891CC9121B00AAA635 /* HotelDemoTests.m */; };
+		69D4E9AF1CC9125300AAA635 /* APP预订大楼方案.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9951CC9125300AAA635 /* APP预订大楼方案.jpg */; };
+		69D4E9B01CC9125300AAA635 /* APP预订大楼方案.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9951CC9125300AAA635 /* APP预订大楼方案.jpg */; };
+		69D4E9B11CC9125300AAA635 /* APP预订大楼方案2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9961CC9125300AAA635 /* APP预订大楼方案2.jpg */; };
+		69D4E9B21CC9125300AAA635 /* APP预订大楼方案2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9961CC9125300AAA635 /* APP预订大楼方案2.jpg */; };
+		69D4E9B31CC9125300AAA635 /* floor_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9971CC9125300AAA635 /* floor_background.png */; };
+		69D4E9B41CC9125300AAA635 /* floor_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9971CC9125300AAA635 /* floor_background.png */; };
+		69D4E9B51CC9125300AAA635 /* floor_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9981CC9125300AAA635 /* floor_background@2x.png */; };
+		69D4E9B61CC9125300AAA635 /* floor_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9981CC9125300AAA635 /* floor_background@2x.png */; };
+		69D4E9B71CC9125300AAA635 /* floor_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9991CC9125300AAA635 /* floor_background@3x.png */; };
+		69D4E9B81CC9125300AAA635 /* floor_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9991CC9125300AAA635 /* floor_background@3x.png */; };
+		69D4E9B91CC9125300AAA635 /* floor_big_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99A1CC9125300AAA635 /* floor_big_zoom.png */; };
+		69D4E9BA1CC9125300AAA635 /* floor_big_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99A1CC9125300AAA635 /* floor_big_zoom.png */; };
+		69D4E9BB1CC9125300AAA635 /* floor_big_zoom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99B1CC9125300AAA635 /* floor_big_zoom@2x.png */; };
+		69D4E9BC1CC9125300AAA635 /* floor_big_zoom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99B1CC9125300AAA635 /* floor_big_zoom@2x.png */; };
+		69D4E9BD1CC9125300AAA635 /* floor_big_zoom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99C1CC9125300AAA635 /* floor_big_zoom@3x.png */; };
+		69D4E9BE1CC9125300AAA635 /* floor_big_zoom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99C1CC9125300AAA635 /* floor_big_zoom@3x.png */; };
+		69D4E9BF1CC9125300AAA635 /* floor_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99D1CC9125300AAA635 /* floor_bottom.png */; };
+		69D4E9C01CC9125300AAA635 /* floor_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99D1CC9125300AAA635 /* floor_bottom.png */; };
+		69D4E9C11CC9125300AAA635 /* floor_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99E1CC9125300AAA635 /* floor_bottom@2x.png */; };
+		69D4E9C21CC9125300AAA635 /* floor_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99E1CC9125300AAA635 /* floor_bottom@2x.png */; };
+		69D4E9C31CC9125300AAA635 /* floor_bottom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99F1CC9125300AAA635 /* floor_bottom@3x.png */; };
+		69D4E9C41CC9125300AAA635 /* floor_bottom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E99F1CC9125300AAA635 /* floor_bottom@3x.png */; };
+		69D4E9C51CC9125300AAA635 /* floor_mid.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A01CC9125300AAA635 /* floor_mid.png */; };
+		69D4E9C61CC9125300AAA635 /* floor_mid.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A01CC9125300AAA635 /* floor_mid.png */; };
+		69D4E9C71CC9125300AAA635 /* floor_mid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A11CC9125300AAA635 /* floor_mid@2x.png */; };
+		69D4E9C81CC9125300AAA635 /* floor_mid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A11CC9125300AAA635 /* floor_mid@2x.png */; };
+		69D4E9C91CC9125300AAA635 /* floor_mid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A21CC9125300AAA635 /* floor_mid@3x.png */; };
+		69D4E9CA1CC9125300AAA635 /* floor_mid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A21CC9125300AAA635 /* floor_mid@3x.png */; };
+		69D4E9CB1CC9125300AAA635 /* floor_num_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A31CC9125300AAA635 /* floor_num_bottom.png */; };
+		69D4E9CC1CC9125300AAA635 /* floor_num_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A31CC9125300AAA635 /* floor_num_bottom.png */; };
+		69D4E9CD1CC9125300AAA635 /* floor_num_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A41CC9125300AAA635 /* floor_num_bottom@2x.png */; };
+		69D4E9CE1CC9125300AAA635 /* floor_num_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A41CC9125300AAA635 /* floor_num_bottom@2x.png */; };
+		69D4E9CF1CC9125300AAA635 /* floor_num_bottom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A51CC9125300AAA635 /* floor_num_bottom@3x.png */; };
+		69D4E9D01CC9125300AAA635 /* floor_num_bottom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A51CC9125300AAA635 /* floor_num_bottom@3x.png */; };
+		69D4E9D11CC9125300AAA635 /* floor_num_mid.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A61CC9125300AAA635 /* floor_num_mid.png */; };
+		69D4E9D21CC9125300AAA635 /* floor_num_mid.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A61CC9125300AAA635 /* floor_num_mid.png */; };
+		69D4E9D31CC9125300AAA635 /* floor_num_mid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A71CC9125300AAA635 /* floor_num_mid@2x.png */; };
+		69D4E9D41CC9125300AAA635 /* floor_num_mid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A71CC9125300AAA635 /* floor_num_mid@2x.png */; };
+		69D4E9D51CC9125300AAA635 /* floor_num_mid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A81CC9125300AAA635 /* floor_num_mid@3x.png */; };
+		69D4E9D61CC9125300AAA635 /* floor_num_mid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A81CC9125300AAA635 /* floor_num_mid@3x.png */; };
+		69D4E9D71CC9125300AAA635 /* floor_num_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A91CC9125300AAA635 /* floor_num_top.png */; };
+		69D4E9D81CC9125300AAA635 /* floor_num_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9A91CC9125300AAA635 /* floor_num_top.png */; };
+		69D4E9D91CC9125300AAA635 /* floor_num_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AA1CC9125300AAA635 /* floor_num_top@2x.png */; };
+		69D4E9DA1CC9125300AAA635 /* floor_num_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AA1CC9125300AAA635 /* floor_num_top@2x.png */; };
+		69D4E9DB1CC9125300AAA635 /* floor_num_top@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AB1CC9125300AAA635 /* floor_num_top@3x.png */; };
+		69D4E9DC1CC9125300AAA635 /* floor_num_top@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AB1CC9125300AAA635 /* floor_num_top@3x.png */; };
+		69D4E9DD1CC9125300AAA635 /* floor_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AC1CC9125300AAA635 /* floor_top.png */; };
+		69D4E9DE1CC9125300AAA635 /* floor_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AC1CC9125300AAA635 /* floor_top.png */; };
+		69D4E9DF1CC9125300AAA635 /* floor_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AD1CC9125300AAA635 /* floor_top@2x.png */; };
+		69D4E9E01CC9125300AAA635 /* floor_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AD1CC9125300AAA635 /* floor_top@2x.png */; };
+		69D4E9E11CC9125300AAA635 /* floor_top@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AE1CC9125300AAA635 /* floor_top@3x.png */; };
+		69D4E9E21CC9125300AAA635 /* floor_top@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D4E9AE1CC9125300AAA635 /* floor_top@3x.png */; };
+		69D4E9E51CC912B400AAA635 /* HotelDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9E41CC912B400AAA635 /* HotelDetailViewController.m */; };
+		69D4E9E61CC912B400AAA635 /* HotelDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9E41CC912B400AAA635 /* HotelDetailViewController.m */; };
+		69D4E9E91CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9E81CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.m */; };
+		69D4E9EA1CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9E81CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.m */; };
+		69D4E9ED1CC91A7900AAA635 /* BottomFloorsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9EC1CC91A7900AAA635 /* BottomFloorsView.m */; };
+		69D4E9EE1CC91A7900AAA635 /* BottomFloorsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9EC1CC91A7900AAA635 /* BottomFloorsView.m */; };
+		69D4E9F11CC9CB1700AAA635 /* FloorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9F01CC9CB1700AAA635 /* FloorView.m */; };
+		69D4E9F21CC9CB1700AAA635 /* FloorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9F01CC9CB1700AAA635 /* FloorView.m */; };
+		69D4E9F51CC9D61800AAA635 /* FloorNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9F41CC9D61800AAA635 /* FloorNumberView.m */; };
+		69D4E9F61CC9D61800AAA635 /* FloorNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4E9F41CC9D61800AAA635 /* FloorNumberView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69D4E9861CC9121B00AAA635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D4E9641CC9121A00AAA635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D4E96B1CC9121A00AAA635;
+			remoteInfo = HotelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69737AD51CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+HDFGesture.h"; sourceTree = "<group>"; };
+		69737AD61CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+HDFGesture.m"; sourceTree = "<group>"; };
+		69D4E96C1CC9121A00AAA635 /* HotelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D4E9701CC9121A00AAA635 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69D4E9721CC9121A00AAA635 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69D4E9731CC9121A00AAA635 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69D4E9751CC9121A00AAA635 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69D4E9761CC9121A00AAA635 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69D4E9791CC9121B00AAA635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69D4E97B1CC9121B00AAA635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D4E97E1CC9121B00AAA635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69D4E9801CC9121B00AAA635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D4E9851CC9121B00AAA635 /* HotelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D4E9891CC9121B00AAA635 /* HotelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelDemoTests.m; sourceTree = "<group>"; };
+		69D4E98B1CC9121B00AAA635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D4E9951CC9125300AAA635 /* APP预订大楼方案.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "APP预订大楼方案.jpg"; sourceTree = "<group>"; };
+		69D4E9961CC9125300AAA635 /* APP预订大楼方案2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "APP预订大楼方案2.jpg"; sourceTree = "<group>"; };
+		69D4E9971CC9125300AAA635 /* floor_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_background.png; sourceTree = "<group>"; };
+		69D4E9981CC9125300AAA635 /* floor_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_background@2x.png"; sourceTree = "<group>"; };
+		69D4E9991CC9125300AAA635 /* floor_background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_background@3x.png"; sourceTree = "<group>"; };
+		69D4E99A1CC9125300AAA635 /* floor_big_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_big_zoom.png; sourceTree = "<group>"; };
+		69D4E99B1CC9125300AAA635 /* floor_big_zoom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_big_zoom@2x.png"; sourceTree = "<group>"; };
+		69D4E99C1CC9125300AAA635 /* floor_big_zoom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_big_zoom@3x.png"; sourceTree = "<group>"; };
+		69D4E99D1CC9125300AAA635 /* floor_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_bottom.png; sourceTree = "<group>"; };
+		69D4E99E1CC9125300AAA635 /* floor_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_bottom@2x.png"; sourceTree = "<group>"; };
+		69D4E99F1CC9125300AAA635 /* floor_bottom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_bottom@3x.png"; sourceTree = "<group>"; };
+		69D4E9A01CC9125300AAA635 /* floor_mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_mid.png; sourceTree = "<group>"; };
+		69D4E9A11CC9125300AAA635 /* floor_mid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_mid@2x.png"; sourceTree = "<group>"; };
+		69D4E9A21CC9125300AAA635 /* floor_mid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_mid@3x.png"; sourceTree = "<group>"; };
+		69D4E9A31CC9125300AAA635 /* floor_num_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_num_bottom.png; sourceTree = "<group>"; };
+		69D4E9A41CC9125300AAA635 /* floor_num_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_num_bottom@2x.png"; sourceTree = "<group>"; };
+		69D4E9A51CC9125300AAA635 /* floor_num_bottom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_num_bottom@3x.png"; sourceTree = "<group>"; };
+		69D4E9A61CC9125300AAA635 /* floor_num_mid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_num_mid.png; sourceTree = "<group>"; };
+		69D4E9A71CC9125300AAA635 /* floor_num_mid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_num_mid@2x.png"; sourceTree = "<group>"; };
+		69D4E9A81CC9125300AAA635 /* floor_num_mid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_num_mid@3x.png"; sourceTree = "<group>"; };
+		69D4E9A91CC9125300AAA635 /* floor_num_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_num_top.png; sourceTree = "<group>"; };
+		69D4E9AA1CC9125300AAA635 /* floor_num_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_num_top@2x.png"; sourceTree = "<group>"; };
+		69D4E9AB1CC9125300AAA635 /* floor_num_top@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_num_top@3x.png"; sourceTree = "<group>"; };
+		69D4E9AC1CC9125300AAA635 /* floor_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor_top.png; sourceTree = "<group>"; };
+		69D4E9AD1CC9125300AAA635 /* floor_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_top@2x.png"; sourceTree = "<group>"; };
+		69D4E9AE1CC9125300AAA635 /* floor_top@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor_top@3x.png"; sourceTree = "<group>"; };
+		69D4E9E31CC912B400AAA635 /* HotelDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailViewController.h; sourceTree = "<group>"; };
+		69D4E9E41CC912B400AAA635 /* HotelDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDetailViewController.m; sourceTree = "<group>"; };
+		69D4E9E71CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HDFNavigationBarTransluent.h"; sourceTree = "<group>"; };
+		69D4E9E81CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HDFNavigationBarTransluent.m"; sourceTree = "<group>"; };
+		69D4E9EB1CC91A7900AAA635 /* BottomFloorsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomFloorsView.h; sourceTree = "<group>"; };
+		69D4E9EC1CC91A7900AAA635 /* BottomFloorsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomFloorsView.m; sourceTree = "<group>"; };
+		69D4E9EF1CC9CB1700AAA635 /* FloorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorView.h; sourceTree = "<group>"; };
+		69D4E9F01CC9CB1700AAA635 /* FloorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorView.m; sourceTree = "<group>"; };
+		69D4E9F31CC9D61800AAA635 /* FloorNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorNumberView.h; sourceTree = "<group>"; };
+		69D4E9F41CC9D61800AAA635 /* FloorNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorNumberView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69D4E9691CC9121A00AAA635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D4E9821CC9121B00AAA635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D4E9631CC9121A00AAA635 = {
+			isa = PBXGroup;
+			children = (
+				69D4E96E1CC9121A00AAA635 /* HotelDemo */,
+				69D4E9881CC9121B00AAA635 /* HotelDemoTests */,
+				69D4E96D1CC9121A00AAA635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69D4E96D1CC9121A00AAA635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D4E96C1CC9121A00AAA635 /* HotelDemo.app */,
+				69D4E9851CC9121B00AAA635 /* HotelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69D4E96E1CC9121A00AAA635 /* HotelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				69737AD51CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.h */,
+				69737AD61CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.m */,
+				69D4E9F31CC9D61800AAA635 /* FloorNumberView.h */,
+				69D4E9F41CC9D61800AAA635 /* FloorNumberView.m */,
+				69D4E9EF1CC9CB1700AAA635 /* FloorView.h */,
+				69D4E9F01CC9CB1700AAA635 /* FloorView.m */,
+				69D4E9E31CC912B400AAA635 /* HotelDetailViewController.h */,
+				69D4E9E41CC912B400AAA635 /* HotelDetailViewController.m */,
+				69D4E9EB1CC91A7900AAA635 /* BottomFloorsView.h */,
+				69D4E9EC1CC91A7900AAA635 /* BottomFloorsView.m */,
+				69D4E9E71CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.h */,
+				69D4E9E81CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.m */,
+				69D4E9941CC9125300AAA635 /* images */,
+				69D4E9721CC9121A00AAA635 /* AppDelegate.h */,
+				69D4E9731CC9121A00AAA635 /* AppDelegate.m */,
+				69D4E9751CC9121A00AAA635 /* ViewController.h */,
+				69D4E9761CC9121A00AAA635 /* ViewController.m */,
+				69D4E9781CC9121B00AAA635 /* Main.storyboard */,
+				69D4E97B1CC9121B00AAA635 /* Assets.xcassets */,
+				69D4E97D1CC9121B00AAA635 /* LaunchScreen.storyboard */,
+				69D4E9801CC9121B00AAA635 /* Info.plist */,
+				69D4E96F1CC9121A00AAA635 /* Supporting Files */,
+			);
+			path = HotelDemo;
+			sourceTree = "<group>";
+		};
+		69D4E96F1CC9121A00AAA635 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69D4E9701CC9121A00AAA635 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69D4E9881CC9121B00AAA635 /* HotelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				69D4E9891CC9121B00AAA635 /* HotelDemoTests.m */,
+				69D4E98B1CC9121B00AAA635 /* Info.plist */,
+			);
+			path = HotelDemoTests;
+			sourceTree = "<group>";
+		};
+		69D4E9941CC9125300AAA635 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				69D4E9951CC9125300AAA635 /* APP预订大楼方案.jpg */,
+				69D4E9961CC9125300AAA635 /* APP预订大楼方案2.jpg */,
+				69D4E9971CC9125300AAA635 /* floor_background.png */,
+				69D4E9981CC9125300AAA635 /* floor_background@2x.png */,
+				69D4E9991CC9125300AAA635 /* floor_background@3x.png */,
+				69D4E99A1CC9125300AAA635 /* floor_big_zoom.png */,
+				69D4E99B1CC9125300AAA635 /* floor_big_zoom@2x.png */,
+				69D4E99C1CC9125300AAA635 /* floor_big_zoom@3x.png */,
+				69D4E99D1CC9125300AAA635 /* floor_bottom.png */,
+				69D4E99E1CC9125300AAA635 /* floor_bottom@2x.png */,
+				69D4E99F1CC9125300AAA635 /* floor_bottom@3x.png */,
+				69D4E9A01CC9125300AAA635 /* floor_mid.png */,
+				69D4E9A11CC9125300AAA635 /* floor_mid@2x.png */,
+				69D4E9A21CC9125300AAA635 /* floor_mid@3x.png */,
+				69D4E9A31CC9125300AAA635 /* floor_num_bottom.png */,
+				69D4E9A41CC9125300AAA635 /* floor_num_bottom@2x.png */,
+				69D4E9A51CC9125300AAA635 /* floor_num_bottom@3x.png */,
+				69D4E9A61CC9125300AAA635 /* floor_num_mid.png */,
+				69D4E9A71CC9125300AAA635 /* floor_num_mid@2x.png */,
+				69D4E9A81CC9125300AAA635 /* floor_num_mid@3x.png */,
+				69D4E9A91CC9125300AAA635 /* floor_num_top.png */,
+				69D4E9AA1CC9125300AAA635 /* floor_num_top@2x.png */,
+				69D4E9AB1CC9125300AAA635 /* floor_num_top@3x.png */,
+				69D4E9AC1CC9125300AAA635 /* floor_top.png */,
+				69D4E9AD1CC9125300AAA635 /* floor_top@2x.png */,
+				69D4E9AE1CC9125300AAA635 /* floor_top@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D4E96B1CC9121A00AAA635 /* HotelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D4E98E1CC9121B00AAA635 /* Build configuration list for PBXNativeTarget "HotelDemo" */;
+			buildPhases = (
+				69D4E9681CC9121A00AAA635 /* Sources */,
+				69D4E9691CC9121A00AAA635 /* Frameworks */,
+				69D4E96A1CC9121A00AAA635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotelDemo;
+			productName = HotelDemo;
+			productReference = 69D4E96C1CC9121A00AAA635 /* HotelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69D4E9841CC9121B00AAA635 /* HotelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D4E9911CC9121B00AAA635 /* Build configuration list for PBXNativeTarget "HotelDemoTests" */;
+			buildPhases = (
+				69D4E9811CC9121B00AAA635 /* Sources */,
+				69D4E9821CC9121B00AAA635 /* Frameworks */,
+				69D4E9831CC9121B00AAA635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D4E9871CC9121B00AAA635 /* PBXTargetDependency */,
+			);
+			name = HotelDemoTests;
+			productName = HotelDemoTests;
+			productReference = 69D4E9851CC9121B00AAA635 /* HotelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69D4E9641CC9121A00AAA635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangyibiao;
+				TargetAttributes = {
+					69D4E96B1CC9121A00AAA635 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					69D4E9841CC9121B00AAA635 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 69D4E96B1CC9121A00AAA635;
+					};
+				};
+			};
+			buildConfigurationList = 69D4E9671CC9121A00AAA635 /* Build configuration list for PBXProject "HotelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69D4E9631CC9121A00AAA635;
+			productRefGroup = 69D4E96D1CC9121A00AAA635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D4E96B1CC9121A00AAA635 /* HotelDemo */,
+				69D4E9841CC9121B00AAA635 /* HotelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D4E96A1CC9121A00AAA635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D4E9B11CC9125300AAA635 /* APP预订大楼方案2.jpg in Resources */,
+				69D4E9C31CC9125300AAA635 /* floor_bottom@3x.png in Resources */,
+				69D4E97F1CC9121B00AAA635 /* LaunchScreen.storyboard in Resources */,
+				69D4E97C1CC9121B00AAA635 /* Assets.xcassets in Resources */,
+				69D4E9D11CC9125300AAA635 /* floor_num_mid.png in Resources */,
+				69D4E9DF1CC9125300AAA635 /* floor_top@2x.png in Resources */,
+				69D4E9CB1CC9125300AAA635 /* floor_num_bottom.png in Resources */,
+				69D4E9CD1CC9125300AAA635 /* floor_num_bottom@2x.png in Resources */,
+				69D4E9D71CC9125300AAA635 /* floor_num_top.png in Resources */,
+				69D4E9CF1CC9125300AAA635 /* floor_num_bottom@3x.png in Resources */,
+				69D4E9BD1CC9125300AAA635 /* floor_big_zoom@3x.png in Resources */,
+				69D4E9B91CC9125300AAA635 /* floor_big_zoom.png in Resources */,
+				69D4E9C51CC9125300AAA635 /* floor_mid.png in Resources */,
+				69D4E9B51CC9125300AAA635 /* floor_background@2x.png in Resources */,
+				69D4E9D91CC9125300AAA635 /* floor_num_top@2x.png in Resources */,
+				69D4E9E11CC9125300AAA635 /* floor_top@3x.png in Resources */,
+				69D4E9D51CC9125300AAA635 /* floor_num_mid@3x.png in Resources */,
+				69D4E9C71CC9125300AAA635 /* floor_mid@2x.png in Resources */,
+				69D4E97A1CC9121B00AAA635 /* Main.storyboard in Resources */,
+				69D4E9C11CC9125300AAA635 /* floor_bottom@2x.png in Resources */,
+				69D4E9DD1CC9125300AAA635 /* floor_top.png in Resources */,
+				69D4E9B31CC9125300AAA635 /* floor_background.png in Resources */,
+				69D4E9BB1CC9125300AAA635 /* floor_big_zoom@2x.png in Resources */,
+				69D4E9D31CC9125300AAA635 /* floor_num_mid@2x.png in Resources */,
+				69D4E9BF1CC9125300AAA635 /* floor_bottom.png in Resources */,
+				69D4E9B71CC9125300AAA635 /* floor_background@3x.png in Resources */,
+				69D4E9C91CC9125300AAA635 /* floor_mid@3x.png in Resources */,
+				69D4E9AF1CC9125300AAA635 /* APP预订大楼方案.jpg in Resources */,
+				69D4E9DB1CC9125300AAA635 /* floor_num_top@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D4E9831CC9121B00AAA635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D4E9DC1CC9125300AAA635 /* floor_num_top@3x.png in Resources */,
+				69D4E9D61CC9125300AAA635 /* floor_num_mid@3x.png in Resources */,
+				69D4E9D01CC9125300AAA635 /* floor_num_bottom@3x.png in Resources */,
+				69D4E9C81CC9125300AAA635 /* floor_mid@2x.png in Resources */,
+				69D4E9CC1CC9125300AAA635 /* floor_num_bottom.png in Resources */,
+				69D4E9C01CC9125300AAA635 /* floor_bottom.png in Resources */,
+				69D4E9BA1CC9125300AAA635 /* floor_big_zoom.png in Resources */,
+				69D4E9B81CC9125300AAA635 /* floor_background@3x.png in Resources */,
+				69D4E9C61CC9125300AAA635 /* floor_mid.png in Resources */,
+				69D4E9CA1CC9125300AAA635 /* floor_mid@3x.png in Resources */,
+				69D4E9BE1CC9125300AAA635 /* floor_big_zoom@3x.png in Resources */,
+				69D4E9BC1CC9125300AAA635 /* floor_big_zoom@2x.png in Resources */,
+				69D4E9E21CC9125300AAA635 /* floor_top@3x.png in Resources */,
+				69D4E9DE1CC9125300AAA635 /* floor_top.png in Resources */,
+				69D4E9CE1CC9125300AAA635 /* floor_num_bottom@2x.png in Resources */,
+				69D4E9B21CC9125300AAA635 /* APP预订大楼方案2.jpg in Resources */,
+				69D4E9D81CC9125300AAA635 /* floor_num_top.png in Resources */,
+				69D4E9DA1CC9125300AAA635 /* floor_num_top@2x.png in Resources */,
+				69D4E9C41CC9125300AAA635 /* floor_bottom@3x.png in Resources */,
+				69D4E9C21CC9125300AAA635 /* floor_bottom@2x.png in Resources */,
+				69D4E9B61CC9125300AAA635 /* floor_background@2x.png in Resources */,
+				69D4E9B41CC9125300AAA635 /* floor_background.png in Resources */,
+				69D4E9E01CC9125300AAA635 /* floor_top@2x.png in Resources */,
+				69D4E9D41CC9125300AAA635 /* floor_num_mid@2x.png in Resources */,
+				69D4E9D21CC9125300AAA635 /* floor_num_mid.png in Resources */,
+				69D4E9B01CC9125300AAA635 /* APP预订大楼方案.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69D4E9681CC9121A00AAA635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D4E9E51CC912B400AAA635 /* HotelDetailViewController.m in Sources */,
+				69D4E9771CC9121A00AAA635 /* ViewController.m in Sources */,
+				69D4E9F51CC9D61800AAA635 /* FloorNumberView.m in Sources */,
+				69737AD71CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.m in Sources */,
+				69D4E9741CC9121A00AAA635 /* AppDelegate.m in Sources */,
+				69D4E9E91CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.m in Sources */,
+				69D4E9ED1CC91A7900AAA635 /* BottomFloorsView.m in Sources */,
+				69D4E9F11CC9CB1700AAA635 /* FloorView.m in Sources */,
+				69D4E9711CC9121A00AAA635 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D4E9811CC9121B00AAA635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D4E9F61CC9D61800AAA635 /* FloorNumberView.m in Sources */,
+				69D4E9E61CC912B400AAA635 /* HotelDetailViewController.m in Sources */,
+				69D4E9EA1CC914BB00AAA635 /* UINavigationBar+HDFNavigationBarTransluent.m in Sources */,
+				69D4E9EE1CC91A7900AAA635 /* BottomFloorsView.m in Sources */,
+				69D4E98A1CC9121B00AAA635 /* HotelDemoTests.m in Sources */,
+				69737AD81CCB274900AE1222 /* UIGestureRecognizer+HDFGesture.m in Sources */,
+				69D4E9F21CC9CB1700AAA635 /* FloorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69D4E9871CC9121B00AAA635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D4E96B1CC9121A00AAA635 /* HotelDemo */;
+			targetProxy = 69D4E9861CC9121B00AAA635 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69D4E9781CC9121B00AAA635 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D4E9791CC9121B00AAA635 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69D4E97D1CC9121B00AAA635 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D4E97E1CC9121B00AAA635 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69D4E98C1CC9121B00AAA635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69D4E98D1CC9121B00AAA635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69D4E98F1CC9121B00AAA635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HotelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.HotelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69D4E9901CC9121B00AAA635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HotelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.HotelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69D4E9921CC9121B00AAA635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.HotelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotelDemo.app/HotelDemo";
+			};
+			name = Debug;
+		};
+		69D4E9931CC9121B00AAA635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.HotelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotelDemo.app/HotelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D4E9671CC9121A00AAA635 /* Build configuration list for PBXProject "HotelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D4E98C1CC9121B00AAA635 /* Debug */,
+				69D4E98D1CC9121B00AAA635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D4E98E1CC9121B00AAA635 /* Build configuration list for PBXNativeTarget "HotelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D4E98F1CC9121B00AAA635 /* Debug */,
+				69D4E9901CC9121B00AAA635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D4E9911CC9121B00AAA635 /* Build configuration list for PBXNativeTarget "HotelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D4E9921CC9121B00AAA635 /* Debug */,
+				69D4E9931CC9121B00AAA635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69D4E9641CC9121A00AAA635 /* Project object */;
+}
